@@ -2,8 +2,7 @@
 <plugin id="cordova-plugin-firebasex" version="18.0.7"
 	xmlns="http://apache.org/cordova/ns/plugins/1.0"
 	xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:tools="http://schemas.android.com/tools"
->
+	xmlns:tools="http://schemas.android.com/tools">
 	<name>Google Firebase Plugin</name>
 
 	<license>MIT</license>
@@ -93,7 +92,8 @@
 		<preference name="ANDROID_FIREBASE_INAPPMESSAGING_VERSION" default="21.0.1" />
 		<preference name="ANDROID_FIREBASE_FIRESTORE_VERSION" default="25.1.2" />
 		<preference name="ANDROID_FIREBASE_FUNCTIONS_VERSION" default="21.1.0" />
-		<preference name="ANDROID_FIREBASE_IID_VERSION" default="21.1.0" /> <!-- deprecated but required by firebase-messaging -->
+		<preference name="ANDROID_FIREBASE_IID_VERSION" default="21.1.0" />
+		<!-- deprecated but required by firebase-messaging -->
 		<preference name="ANDROID_FIREBASE_INSTALLATIONS_VERSION" default="18.0.0" />
 		<preference name="ANDROID_FIREBASE_CRASHLYTICS_VERSION" default="19.4.0" />
 		<preference name="ANDROID_FIREBASE_CRASHLYTICS_NDK_VERSION" default="19.4.0" />
@@ -175,21 +175,20 @@
 				<source url="https://cdn.cocoapods.org/"/>
 			</config>
 			<pods use-frameworks="true">
-				<pod name="FirebaseCore" spec="11.8.0"/>
-				<pod name="FirebaseCoreExtension" spec="11.8.0"/>
-				<pod name="FirebaseAuth" spec="11.8.1"/>
-				<pod name="FirebaseAnalytics" spec="11.8.0"/>
-				<!--<pod name="FirebaseAnalyticsOnDeviceConversion" spec="11.8.0"/>-->
-				<pod name="FirebaseMessaging" spec="11.8.0"/>
-				<pod name="FirebasePerformance" spec="11.8.0"/>
-				<pod name="FirebaseRemoteConfig" spec="11.8.0"/>
-				<pod name="FirebaseInAppMessaging" spec="11.8.0-beta"/>
-				<pod name="FirebaseFirestore" spec="11.8.0"/>
-				<pod name="FirebaseCrashlytics" spec="11.8.0"/>
-				<pod name="FirebaseFunctions" spec="11.8.0"/>
-				<pod name="FirebaseInstallations" spec="11.8.0"/>
-				<pod name="GoogleSignIn" spec="7.1.0"/>
-				<pod name="GoogleTagManager" spec="8.0.0"/>
+				<pod name="FirebaseCore" spec="10.24.0"/>
+				<pod name="FirebaseAuth" spec="10.24.0"/>
+				<pod name="FirebaseAnalytics" spec="10.24.0"/>
+				<!--<pod name="FirebaseAnalyticsOnDeviceConversion" spec="10.24.0"/>-->
+				<pod name="FirebaseMessaging" spec="10.24.0"/>
+				<pod name="FirebasePerformance" spec="10.24.0"/>
+				<pod name="FirebaseRemoteConfig" spec="10.24.0"/>
+				<pod name="FirebaseInAppMessaging" spec="10.24.0-beta"/>
+				<pod name="FirebaseFirestore" spec="10.24.0"/>
+				<pod name="FirebaseCrashlytics" spec="10.24.0"/>
+				<pod name="FirebaseFunctions" spec="10.24.0"/>
+				<pod name="FirebaseInstallations" spec="10.24.0"/>
+				<pod name="GoogleSignIn" spec="6.2.4"/>
+				<pod name="GoogleTagManager" spec="7.4.6"/>
 			</pods>
 		</podspec>
 
